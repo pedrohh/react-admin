@@ -9,7 +9,7 @@ import DefaultTreeNode from './TreeNode';
 import DefaultTreeNodeContent from './TreeNodeContent';
 import DefaultTreeNodeWithChildren from './TreeNodeWithChildren';
 
-const styles = {
+export const styles = {
     root: {
         display: 'flex',
         flexDirection: 'column',

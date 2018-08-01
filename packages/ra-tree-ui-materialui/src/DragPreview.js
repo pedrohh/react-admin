@@ -33,7 +33,7 @@ class DragPreview extends PureComponent {
                     ? typeof children === 'function'
                         ? children({ node, translate })
                         : children
-                    : translate('ra.tree.dragpreview', {
+                    : translate('ra.tree.drag_preview', {
                           _:
                               'Node #%{id} |||| Node #%{id} with %{smart_count} children',
                           id: node.id,
